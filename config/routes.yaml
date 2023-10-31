@@ -1,11 +1,3 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
-
-homepage:
-  path: /
-  controller: App\Controller\HomeController::index
-
-choir_homepage:
-  path: /choir
-  controller: App\Controller\ChoirController::index
