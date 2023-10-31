@@ -2,6 +2,10 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
-home:
+homepage:
   path: /
   controller: App\Controller\HomeController::index
+
+choir_homepage:
+  path: /choir
+  controller: App\Controller\ChoirController::index
